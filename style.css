@@ -1,3 +1,23 @@
 body {
+ background-color: teal;
+}
+h3 {
+  color: beige;
+  font-size: 70px; 
+  font-style: Times New Roman;
+  text-decoration: underline;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+h3: hover {
+  text-shadow: 2px 2px 5px purple;
+  text-decoration: underline;
+  font-size: 90px
+}
 
+img{
+  width: 25%;
+  border-radius: 50%;
+  border: dotted 8px purple;
 }
