@@ -1,6 +1,7 @@
 body {
- background-color: teal;
+  background-color: teal;
 }
+
 h3 {
   color: beige;
   font-size: 70px; 
@@ -20,4 +21,32 @@ img{
   width: 25%;
   border-radius: 50%;
   border: dotted 8px purple;
+}
+ul {
+  list-style: none;
+  background-color:navy;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+  padding: 8px 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+li a:hover {
+  background-color: purple;
+  padding: 18px 18px;
+  opacity: 1;
+ 
 }
